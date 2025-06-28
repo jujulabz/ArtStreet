@@ -1,0 +1,216 @@
+
+html,body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Arial', sans-serif;
+    /* background-color: #fdfdfd;*/
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+#navbar {
+ 
+
+}
+
+
+#Home h2 {
+    color: rgb(255, 0, 0);
+    text-shadow: 2px 2px 4px black;
+    font-size: 140px;
+    text-align: center;
+    margin: 10px 0;
+}
+#ArtistShowcase h1{
+font-size: 30px
+font-family 'Arial', sans-serif;
+
+
+}
+
+/*#Home{
+    background-image: url("img/banksy.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}*/
+.card-group .card img {
+    height: 500px; 
+    width: 100%; 
+    object-fit: cover; 
+    border-radius: 0; 
+}
+
+.card-group .card {
+    margin: 10px;
+    border: none; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s; 
+}
+.card-group .card:hover {
+    transform: scale(1.05); 
+}
+.card-group .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px; 
+}
+.card-group .card-text {
+    font-size: 16px; 
+    text-align: center; 
+    margin-top: 5px;
+}
+.card-group .card-body {
+    padding: 10px; 
+    background-color: #f8f9fa; 
+    border-radius: 0;
+}
+/*#Home h1{
+    color: rgb(255, 0, 0);
+    text-shadow: 2px 2px 4px black;
+    font-size: 140px;
+    text-align: center;
+    margin: 10px 0;
+}*/
+p.a {
+    white-space: pre;
+}
+
+p.b {
+    white-space: pre;
+}
+
+#FAQ form {
+    background-color: #ffa658!important;
+
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #000000;
+    margin: 20px 0;
+    border: 4px solid rgb(255, 255, 255);
+    transition: all 0.3s ease;
+    width: 100%;
+    max-width: 600px;
+
+    padding: 20px;
+    margin-left: 0 auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+#FAQ p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+
+}
+#FAQ h1 {
+    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
+color: cornsilk;
+text-shadow: #000000 2px 2px 4px;
+font-size: 50px;
+}
+
+#FAQ h2{
+   
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#FAQ form:hover {
+    box-shadow: 0 8px 16px #363636;
+    transform: scale(1.05);
+}
+#FAQ form label {
+    font-weight: bold;
+    color: #363636;
+    font-size: 20px;
+}
+
+
+#FAQ {
+    background-color: #4caf50 !important;
+   /* padding: 20px;*/
+    border-radius: 10px;
+    line-height: 1.6; 
+    /*max-width: 3000px; */
+    margin: 0 auto; 
+   /* padding: 30px;*/
+}
+
+
+#Footer{
+    flex-shrink: 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center-left;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: auto; 
+    background-color: #333; 
+}
+
+#Footer a {
+    color: #ffa658; 
+    text-decoration: none;
+}
+#Footer a:hover {
+    text-decoration: underline; 
+}
+
+
+
+
+@media (max-width: 768px) { /*This is all for mobile styles. Yes bootstrap does automatically set up cross platform formatting i still wanted to add 
+    a more custom feel thjis makes the site scrool smoother as well as re formatt everything for a more pleasing view*/
+    #Home .container h1 {
+        font-size: 80px;
+    }
+    #Home h2 {
+        font-size: 25px;
+    }
+    .card-group .card img {
+        height: 300px; 
+    }
+    .card-group .card {
+        margin: 5px;
+    }
+    .card-group .card-title {
+        font-size: 16px;
+    }
+    .card-group .card-text {
+        font-size: 14px; 
+    }
+    #FAQ form {
+        padding: 10px;
+    }
+    #FAQ h1 {
+        font-size: 30px;
+    }
+    #FAQ p {
+        font-size: 16px;
+    }
+    footer {
+        font-size: 12px;
+    }
+    footer a {
+        font-size: 12px;
+    }
+    footer a:hover {
+        text-decoration: underline; 
+    }
+    #FAQ h2 {
+        font-size: 20px;
+    }
+    #FAQ form label {
+        font-size: 16px;
+    }
+
+}
